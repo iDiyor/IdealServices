@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+            <Button
+                android:id="@+id/it_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:background="@drawable/it_ripple"
+                android:stateListAnimator="@anim/button_elevation"
+                android:text="IT Services"
+                android:onClick="onServiceButtonClick"/>
+            <Button
+                android:id="@+id/media_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:stateListAnimator="@anim/button_elevation"
+                android:background="@drawable/media_ripple"
+                android:text="Media Services"
+                android:onClick="onServiceButtonClick"/>
+            <Button
+                android:id="@+id/transport_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:stateListAnimator="@anim/button_elevation"
+                android:background="@drawable/transport_ripple"
+                android:text="Transport Services"
+                android:onClick="onServiceButtonClick"/>
+            <Button
+                android:id="@+id/building_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:stateListAnimator="@anim/button_elevation"
+                android:background="@drawable/building_ripple"
+                android:text="Building Services"
+                android:onClick="onServiceButtonClick"/>
+        </LinearLayout>
+
+        <!-- SECOND COLUMN -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+            <Button
+                android:id="@+id/household_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:stateListAnimator="@anim/button_elevation"
+                android:background="@drawable/household_ripple"
+                android:text="Household Services"
+                android:onClick="onServiceButtonClick"/>
+            <Button
+                android:id="@+id/business_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:stateListAnimator="@anim/button_elevation"
+                android:background="@drawable/business_ripple"
+                android:text="Business Services"
+                android:onClick="onServiceButtonClick"/>
+            <Button
+                android:id="@+id/healthcare_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:stateListAnimator="@anim/button_elevation"
+                android:background="@drawable/healthcare_ripple"
+                android:text="Healthcare Services"
+                android:onClick="onServiceButtonClick"/>
+            <Button
+                android:id="@+id/education_service_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/button_margin"
+                android:stateListAnimator="@anim/button_elevation"
+                android:background="@drawable/education_ripple"
+                android:text="Education Services"
+                android:onClick="onServiceButtonClick"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

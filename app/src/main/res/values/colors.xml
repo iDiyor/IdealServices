@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="appBarColor">#2c3e50</color>
+
+    <color name="navigationDrawerColor">#34495e</color>
+    <color name="navigationDrawerSelectedColor">#5d7d9d</color>
+
+    <color name="subServiceLayoutBackground">#bdc3c7</color>
+    <color name="subServiceTextColor">#424242</color>
+
+    <color name="serviceProviderTextColor">#616161</color>
+    <color name="serviceProviderHeadlineColor">#212121</color>
+
+    <!-- IT -->
+    <color name="it_button_selected_color">#0277BD</color>
+    <color name="it_button_normal_color">#81D4FA</color>
+
+    <!-- Household -->
+    <color name="household_button_selected_color">#1B5E20</color>
+    <color name="household_button_normal_color">#66BB6A</color>
+
+    <!-- Media -->
+    <color name="media_button_selected_color">#F57F17</color>
+    <color name="media_button_normal_color">#FFEE58</color>
+
+    <!-- Business -->
+    <color name="business_button_selected_color">#311B92</color>
+    <color name="business_button_normal_color">#7E57C2</color>
+
+    <!-- Transport -->
+    <color name="transport_button_selected_color">#004D40</color>
+    <color name="transport_button_normal_color">#26A69A</color>
+
+    <!-- Healthcare -->
+    <color name="healthcare_button_selected_color">#BF360C</color>
+    <color name="healthcare_button_normal_color">#FF7043</color>
+
+    <!-- Building -->
+    <color name="building_button_selected_color">#212121</color>
+    <color name="building_button_normal_color">#BDBDBD</color>
+
+    <!-- Education -->
+    <color name="education_button_selected_color">#E65100</color>
+    <color name="education_button_normal_color">#FFA726</color>
+</resources>

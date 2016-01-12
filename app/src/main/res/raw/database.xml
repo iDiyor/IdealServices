@@ -1,0 +1,127 @@
+<!-- INSTRUCTION -->
+<!-- Service represents a Service -->
+<!-- "subservice" contains subservices of a parent service -->
+<!-- "item> represents a service provider person -->
+
+<database>
+	<services>
+		<!-- IT SERVICES -->
+		<service id="1" name="IT Services" count="1">
+			<subservice id="1" name="ПО и Антивирусы" count="13">
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Программирование" count="1">
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="3" name="Веб разработка" count="1">
+				<item name="Steve Jobs" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+
+			<subservice id="4" name="Дизайн" count="1">
+				<item name="Bill Gates" skills="Web Developer" phone="54321" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+		<!-- MEDIA SERVICES -->
+		<service id="2" name="Media Services" count="1">
+			<subservice id="1" name="Организаторства праздников" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Фото и Видео" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+		<!-- HOUSEHOLD SERVICES -->
+		<service id="3" name="Household Services" count="1">
+			<subservice id="1" name="Ремонт бытовой техники" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Установка техники" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="3" name="Другие" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+
+		<!-- BUSINESS SERVICES -->
+		<service id="4" name="Business Services" count="1">
+			<subservice id="1" name="Создание бизнеса" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Оформления документов" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="3" name="Защита прав" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+		<!-- TRANSPORT SERVICES -->
+		<service id="5" name="Transport Services" count="1">
+			<subservice id="1" name="Перевозка грузов" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Перевозка людей" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="3" name="Строительные машины" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+		<!-- HEALTHCARE SERVICES -->
+		<service id="6" name="Healthcare Services" count="1">
+			<subservice id="1" name="Домашнее лечение" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Релакс" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+		<!-- BUILDING SERVICES -->
+		<service id="7" name="Building Services" count="1">
+			<subservice id="1" name="Ремонт дома" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Строительство зданий" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="3" name="Сантехника" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="4" name="Дизайн и Архитектура" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+		<!-- EDUCATIOn SERVICES -->
+		<service id="8" name="Education Services" count="1">
+			<subservice id="1" name="Репетитор" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="2" name="Детские учителья" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+			<subservice id="3" name="Консультация" count="1">
+				<item name="Elon Musk" skills="Developer" phone="12345" image="ic_launcher"/>
+			</subservice>
+		</service>
+
+	</services>
+</database>

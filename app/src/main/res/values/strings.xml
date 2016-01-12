@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IdealServices</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="contact_string">Обратная связь</string>
+    <string name="about_string">О программе</string>
+
+    <string name="menu_1">Главная</string>
+    <string name="menu_2">IT услуги</string>
+    <string name="menu_3">Бытовые услуги</string>
+    <string name="menu_4">Медиа услуги</string>
+    <string name="menu_5">Бизнес услуги</string>
+
+    <string-array name="nav_tab_names">
+        <item>IT услуги</item>
+        <item>Бытовые услуги</item>
+        <item>Медиа услуги</item>
+        <item>Бизнес услуги</item>
+        <item>Транспорт</item>
+        <item>Здоровье</item>
+        <item>Строительства</item>
+        <item>Обучение</item>
+    </string-array>
+
+    <string name="SKILLS_PLACEHOLDER">Skills</string>
+    <string name="TELEPHONE_PLACEHOLDER">Telephone</string>
+
+</resources>
